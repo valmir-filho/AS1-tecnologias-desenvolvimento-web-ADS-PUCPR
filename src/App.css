@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+/* Estiliza o container principal do formulário de login. */
+.login-container {
+  width: 100%; /* Ocupa 100% da largura. */
+  max-width: 400px; /* Largura máxima de 400px. */
+  margin: auto; /* Centraliza na página. */
+  padding: 20px; /* Espaçamento interno. */
+  text-align: center; /* Texto centralizado. */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Estiliza os campos de input. */
+.input-field {
+  width: 100%; /* Ocupa 100% da largura disponível. */
+  padding: 10px; /* Espaçamento interno. */
+  margin: 10px 0; /* Margem superior e inferior. */
+  border-radius: 5px; /* Bordas arredondadas. */
+  border: 1px solid #ccc; /* Borda sólida com cor cinza claro. */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Estiliza o botão de acesso. */
+.access-button {
+  width: 100%; /* Ocupa 100% da largura disponível. */
+  padding: 10px; /* Espaçamento interno. */
+  margin: 10px 0; /* Margem superior e inferior. */
+  background-color: #007bff; /* Cor de fundo azul. */
+  color: white; /* Cor do texto branco. */
+  border: none; /* Sem borda. */
+  border-radius: 5px; /* Bordas arredondadas. */
+  cursor: pointer; /* Cursor do mouse como ponteiro. */
+  transition: background-color 0.3s ease; /* Transição suave da cor de fundo. */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Estiliza o botão de acesso ao passar o mouse. */
+.access-button:hover {
+  background-color: #0056b3; /* Cor de fundo um pouco mais escura ao passar o mouse. */
 }
 
-.App-link {
-  color: #61dafb;
+/* Estiliza a mensagem de feedback. */
+.message {
+  margin-top: 20px; /* Margem superior. */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Estiliza o título do formulário. */
+h1 {
+  color: #333; /* Cor do texto cinza escuro. */
 }
