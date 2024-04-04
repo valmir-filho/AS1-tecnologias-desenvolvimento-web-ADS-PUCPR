@@ -5,6 +5,7 @@
   margin: auto; /* Centraliza na página. */
   padding: 20px; /* Espaçamento interno. */
   text-align: center; /* Texto centralizado. */
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura. */
 }
 
 /* Estiliza os campos de input. */
@@ -14,6 +15,7 @@
   margin: 10px 0; /* Margem superior e inferior. */
   border-radius: 5px; /* Bordas arredondadas. */
   border: 1px solid #ccc; /* Borda sólida com cor cinza claro. */
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura. */
 }
 
 /* Estiliza o botão de acesso. */
@@ -27,19 +29,5 @@
   border-radius: 5px; /* Bordas arredondadas. */
   cursor: pointer; /* Cursor do mouse como ponteiro. */
   transition: background-color 0.3s ease; /* Transição suave da cor de fundo. */
-}
-
-/* Estiliza o botão de acesso ao passar o mouse. */
-.access-button:hover {
-  background-color: #0056b3; /* Cor de fundo um pouco mais escura ao passar o mouse. */
-}
-
-/* Estiliza a mensagem de feedback. */
-.message {
-  margin-top: 20px; /* Margem superior. */
-}
-
-/* Estiliza o título do formulário. */
-h1 {
-  color: #333; /* Cor do texto cinza escuro. */
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura. */
 }
