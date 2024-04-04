@@ -1,9 +1,7 @@
-Repositório de exercícios Python.
-Conteúdos:
-Exercícios da disciplina de Raciocínio Computacional do curso de Tecnologia em Análise e Desenvolvimento de Sistemas da PUCPR;
-Exercícios do site Python Brasil;
-Exercícios do curso de Python do Curso em Vídeo do Prof. Guanabara;
-Projeto do uso do ChatGPT por comando de voz;
-Exercícios do curso de Python 3 do básico ao avançado (com projetos reais) da Udemy do Prof. Luiz Otávio Miranda;
-Desafios do site CodeWars.
-IDEs utilizadas: PyCharm e Visual Studio Code.
+# Repositório da AS1 da disciplina de Tecnologias para Desenvolvimento Web do curso de ADS da PUCPR.
+
+## Conteúdo:
+
+- AS1 da disciplina de Tecnologias para Desenvolvimento Web do curso de Tecnologia em Análise e Desenvolvimento de Sistemas da PUCPR.
+
+### IDE utilizada: Visual Studio Code.
